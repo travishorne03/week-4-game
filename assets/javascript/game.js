@@ -44,13 +44,23 @@ $(document).ready(function() {
                 alert("YOU WIN");
                 wins++; 
                 $("#wins").html(wins);
+                resetGame();
             } else if (yourScore > matchNum) {
                 alert("YOU LOSE");
                 loses++; 
                 $("#loses").html(loses);
+                resetGame();
             }
         })
     }
+
+  function resetGame() {
+
+yourScore=0; 
+$("#endscore").html(yourScore);
+updateNum();
+
+  }
 
     function gamePlay() {
         updateNum();
