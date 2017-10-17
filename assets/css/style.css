@@ -1,18 +1,71 @@
 /*Header*/
 
+.jumbotron {
+	background-color: rgba(95, 156, 95, 0.342);
+}
+
+body {
+    margin:0;
+    padding:0;
+    background:url("http://media1.gameinformer.com/filestorage/CommunityServer.Components.SiteFiles/imagefeed/featured/crystaldynamics/tomb-raider/rise/puzzle/Tombpuzzles610.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+
 
 h1 {
 
-	background-color: purple;
+	background-color: #2874A6;
+	margin: 0 auto;
+	border-width: 50px;
+	font-size: 50px;
+	border-radius: 10px;
+	color: #fff;
 	text-align: center;
+	margin-top: 10px;
 }
 
 
 .instructions {
-	width: 50px
-	border: 100px;
-	color: #4eeeef;
-	padding-top: 200px;
+	width: 800px;
+	height: 300px;
+	border: 1px solid #FFF;
+	border-width: 10px;
+	color: black;
+	padding-top: 100px;
+	font-size: 15px;
+	color: #FFF;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: rgba(14, 105, 128, 0.685);
+	
 }
 
+/*-h2 {
 
+	text-align: 25%;
+	color: white;
+}
+
+p{
+	margin-left: 10px;
+}
+
+#randomNumId {
+	color: white;
+	font-size: 30px;
+}*/
+
+.game {
+	color: white;
+	font-size: 30px;
+}
+
+#randomNumId {
+
+	text-align-last: 13px;
+}
