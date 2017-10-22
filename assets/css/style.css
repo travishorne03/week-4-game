@@ -37,12 +37,12 @@ h1 {
 	border-width: 10px;
 	color: black;
 	padding-top: 100px;
-	font-size: 15px;
+	font-size: 20px;
 	color: #FFF;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	background: rgba(14, 105, 128, 0.685);
-	
+
 }
 
 /*-h2 {
@@ -68,4 +68,29 @@ p{
 #randomNumId {
 
 	text-align-last: 13px;
+}
+
+#rock4 {
+	height: 250px;
+}
+
+#jewelRocks {
+
+	padding: 25px;
+/*padding bottom: 15px;*/
+}
+
+#endScore {
+font-size: 30px;
+
+}
+
+
+
+h5 {
+
+	font-size: 30px;
+	width: 300px;
+	padding-bottom: 	15px;
+
 }

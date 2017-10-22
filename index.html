@@ -1,74 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<!--meta tag-->
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Jewel Collector Game!</title>
-		<!--Bootstrap-->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-		<link rel="stylesheet" href="assets/css/style.css">
-	</head>
-	<body>
-		
-		<div class="container">
-			<div class="jumbotron">
-			  <div class="row">
+
+<head>
+	<!--meta tag-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Jewel Collector Game!</title>
+	<!--Bootstrap-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+	<div class="container">
+		<div class="jumbotron">
+			<div class="row">
 				<div class="col-md-12 text-right">
 					<div id="toppart">
 						<h1> Jewel Game!</h1>
-							
+
 						<!--CLose ID div-->
-						</div>
-					<!--CLose COL div-->
 					</div>
-				<!--Close row div-->
-				 <!--  JUMBOTRON CLOSE-->
+					<!--CLose COL div-->
 				</div>
+				<!--Close row div-->
+				<!--  JUMBOTRON CLOSE-->
 			</div>
-			<!--Close Container div-->
 		</div>
-		
-		<div class="wrapper">
-			<div class="instructions">
-				
+		<!--Close Container div-->
+	</div>
+
+	<div class="wrapper">
+		<div class="instructions">
+
 			<!-- INSTRUCTIONS-->
-			
+
 			<p>You will be given random number at the start of the game.</p>
 			<P>There are four crystals below. By clicking on a crystal you will add a specific amount of point to your total score.</P>
 			<p>You win the game by matching your total score to the score to random number, you lose the game if your total score goes above the random number.</p>
 			<p>The value of each crystal is hidden from you until you click on it.</p>
 			<p> Each time when the game starts, the game will change the values of each crystal.</p>
-			
+
 			<!--closs instrution div-->
-			</div>
-			<!--CLOSE WRAPPER DIV-->
 		</div>
-		
-		
-		<section class="game">
-			<div class="container">
-				<div class="row">
-					<div class="col-2 col-sm-4">
-						<!--get the random # box-->
-						<h2>Random Number</h2>
-						<p id="randomNumId"></p>
-					</div>
-				</div>
-				<!--end row-->
-			</div>
-			<!-- end container-->
-		</div>
-		<!--close col div-->
+		<!--CLOSE WRAPPER DIV-->
 	</div>
-	<!--OPEN Div for WINS & LOSES-->
-	<div class="numScore">
-		<div class="container")>
+
+
+	<section class="game">
+		<div class="container">
 			<div class="row">
 				<div class="col-2 col-sm-4">
-		<h3>Wins</h3>
-		<p id="wins"></p>
-		<br>
-		<h4>Loses</h5>
+					<!--get the random # box-->
+					<h2>Random Number</h2>
+					<p id="randomNumId"></p>
+				</div>
+			</div>
+			<!--end row-->
+		</div>
+		<!-- end container-->
+		</div>
+		<!--close col div-->
+		</div>
+		<!--OPEN Div for WINS & LOSES-->
+		<div class="numScore">
+			<div class="container" )>
+				<div class="row">
+					<div class="col-2 col-sm-4">
+						<h3>Wins</h3>
+						<p id="wins"></p>
+						<br>
+						<h4>Loses</h5>
 		<p id="loses"></p>
 		<!--Close Div for WINS & LOSES-->
 				</div>
@@ -77,32 +79,33 @@
 	</div>
 	<!--close 2nd row div-->
 	<!--START OF 3RD ROW-->
-	<div class="row">
-		<div class="col-md-2 col-lg-2">
-			<div class="card">
-			
+	<div id= "jewelRocks">
+			<div class="row">
+				<div class="col-md-2 col-lg-2">
+					<div class="card">
+
 			<img id="rock1" src="assets/images/jewel1.jpg" alt="Diamond">
 
 				<!-- CARD DIV -->
-			</div>	
+			</div>
 			<!--CLOSE COL 3RD ROW-->
 		</div>
 		<!--CLOSE OF 3RD ROW-->
 		<div class="col-md-2 col-lg-2">
 				<div class="card">
-			
+
 			<img id="rock2" src="assets/images/jewel2.jpg" alt="Diamond">
 				<!-- CARD DIV -->
 			</div>
-			
+
 			<!--CLOSE COL 3RD ROW-->
 		</div>
-		
+
 		<div class="col-md-2 col-lg-2">
 				<div class="card">
-			
+
 			<img id="rock3" src="assets/images/jewel3.jpg" class="ing-fluid" alt="Diamond">
-			
+
 				<!-- CARD DIV -->
 			</div>
 			<!--CLOSE COL 3RD ROW-->
@@ -110,16 +113,18 @@
 		<!--close id div-->
 		<div class="col-md-2 col-lg-2">
 				<div class="card"width="25rem">
-				
-				<img id="rock1" src="assets/images/jewel6.jpeg" alt="Diamond">
-	
+
+				<img id="rock4" src="assets/images/jewel6.jpeg" alt="Diamond">
+
 					<!-- CARD DIV -->
-				</div>	
+				</div>
 				<!--CLOSE COL 3RD ROW-->
 			</div>
-	</div>
+		</div>
 	<!--close id div-->
-	
+	<!-- Closing ID Tag-->
+	</div>
+
 	<div class="row">
 		<div class="container">
 			<div class="col-2">
@@ -129,12 +134,14 @@
 					<div id="endScore">
 					</div>
 				</div>
-				
-			</div>
+
+				</div>
 			<!--YOUR TOTAL SCORE IS CONTAINER-->
-		</div>
+			</div>
 		<!--YOUR TOTAL SCORE IS "ROW"-->
-	</div>
+		</div>
+
+
 </section>
 <!--Closing Bootstrap-->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
